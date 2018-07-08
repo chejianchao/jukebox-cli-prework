@@ -30,6 +30,6 @@ def play(songs)
   if idx > 0 and idx <= songs.size
     puts "Playing #{songs[idx-1]}"
   else
-    puts 
+    puts "Invalid input, please try again"
   end
 end
