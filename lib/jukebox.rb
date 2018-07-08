@@ -34,4 +34,4 @@ def play(songs)
   end
 end
 
-def ex
+def EXIT_JUKEBOX
