@@ -19,5 +19,8 @@ def help
 end
 
 def list(songs)
-  
+  res = []
+  songs.each_with_index {|song, idx|
+    res << "#{idx+1}. "
+  }
 end
