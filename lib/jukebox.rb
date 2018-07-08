@@ -25,5 +25,7 @@ def list(songs)
 end
 
 def play(songs)
-  pus 
+  puts "Please enter a song name or number:"
+  idx = gets.chomp.to_i
+  
 end
