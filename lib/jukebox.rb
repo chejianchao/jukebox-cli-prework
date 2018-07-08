@@ -27,5 +27,9 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   idx = gets.chomp.to_i
-  
+  if idx > 0 and idx <= songs.size
+    puts "Playing #{songs[idx-1]}"
+  else
+    puts 
+  end
 end
