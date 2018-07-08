@@ -38,4 +38,6 @@ def exit
   puts "Goodbye"
 end
 
-def run
+def run(songs)
+  
+end
